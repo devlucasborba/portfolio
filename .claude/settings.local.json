@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://raw.githubusercontent.com/devlucasborba/dw-pipeline-star-schema/master/README.md\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://api.github.com/repos/devlucasborba/dw-pipeline-star-schema\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\LUCAS\\\\Documents\\\\github\\\\portfolio\\\\public\\\\images\")",
+      "PowerShell(Copy-Item \"C:\\\\Users\\\\LUCAS\\\\pictures\\\\formatura.jpeg\" \"C:\\\\Users\\\\LUCAS\\\\Documents\\\\github\\\\portfolio\\\\public\\\\images\\\\profile.jpg\" -Force)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
